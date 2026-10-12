@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Generated indexes
+indexes/*.faiss
+indexes/chunks.json
+
+# Uploaded research PDFs and private datasets
+data/raw/*.pdf
+data/processed/
+
+# Evaluation output
+evaluation_results.json
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
